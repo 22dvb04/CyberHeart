@@ -112,6 +112,7 @@
     border-radius: 50px;
     text-align: center;
     transition: 0.3s ease;
+    border: none;
 }
 
 .btn_submit:hover {
