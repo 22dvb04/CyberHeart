@@ -1,0 +1,195 @@
+
+/* About Us */
+
+.about_us {
+    display: grid;
+    gap: 120px;
+    padding: 120px 80px;
+    background: linear-gradient(180deg, #0F1115 0%, #111827 100%);
+    color: #E6EDF3;
+    justify-items: center;
+}
+
+.about_us > * {
+    max-width: 1300px;
+    width: 100%;
+}
+
+/* Opening block  */
+
+.header_opening {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.opening h1 {
+    grid-column: 1;
+    font-family: "Tomorrow", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.opening p {
+    grid-column: 1;
+    font-family: "Tomorrow", sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    line-height: 1.8;
+    color: #AAB4C3;
+}
+
+.opening img {
+    grid-column: 2;
+    max-width: 100%;
+    justify-self: end;
+}
+
+/* Principles block */
+
+.principles {
+    display: grid;
+    gap: 60px;
+}
+
+.principles h2 {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 35px;
+}
+
+.principles_blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.principles_block {
+    background-color: #1A1F2B;
+    padding: 40px;
+    border-radius: 10px;
+    display: grid;
+    gap: 20px;
+    transition: 0.3s ease;
+}
+
+.principles_block:hover {
+    background-color: #1F2937;
+}
+
+.principles_block h3 {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 30px;
+    color: #0059ff;
+}
+
+.principles_block p {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 25px;
+    color: #AAB4C3;
+    line-height: 1.7;
+}
+
+/*  Choose block */
+
+.choose {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.choose h2 {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 35px;
+}
+
+
+
+.choose li {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 25px;
+    line-height: 1.8;
+    color: #AAB4C3;
+}
+
+.choose_img{
+    display: grid;
+    justify-content:right;
+}
+.choose_img img {
+    max-width: 650px;
+    width: 500px;
+    min-width: 200px;
+    border-radius: 12px;  
+}
+/* Team Block  */
+
+.team {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.team_text {
+    display: grid;
+    gap: 40px;
+}
+
+.team h2 {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 35px;
+}
+
+.team p {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 23px;
+    line-height: 1.8;
+    color: #AAB4C3;
+}
+
+.office_block img {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 10%;  
+}
+
+/* Button */
+
+.question {
+    background-color: #1A1F2B;
+    padding: 60px;
+    border-radius: 12px;
+    display: grid;
+    gap: 40px;
+    text-align: center;
+}
+
+.question h2 {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 35px;
+}
+
+.btn_audit {
+    display: grid;
+    justify-content: center;
+}
+
+.btn_about{
+    padding: 20px 150px;
+    background-color: #223c8c;
+    color: #E6EDF3;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Tomorrow", sans-serif;
+    font-size: 25px;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.btn_about:hover {
+    background-color: #0059ff;
+    color: #ffffff;
+}

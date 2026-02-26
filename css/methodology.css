@@ -1,0 +1,170 @@
+/* Methodology */
+
+.methodology {
+    display: grid;
+    gap: 120px;
+    padding: 120px 80px;
+    background: linear-gradient(180deg, #0F1115 0%, #111827 100%);
+    color: #E6EDF3;
+    justify-items: center;
+}
+
+.methodology > * {
+    max-width: 1300px;
+    width: 100%;
+}
+
+/* Header */
+
+.methodology_header {
+    display: grid;
+    gap: 40px;
+}
+
+.methodology_header h1 {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.methodology_header p {
+    font-family: "Tomorrow", sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 1.8;
+    color: #AAB4C3;
+}
+
+/* Chain */
+
+.Chain_section {
+    display: grid;
+    gap: 50px;
+}
+
+.chain_section h2 {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 35px;
+}
+
+.chain {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;  
+    align-items: center;
+    gap: 30px;
+}
+
+.chain_step {
+    background-color: #1A1F2B;
+    padding: 20px 30px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: "Tomorrow", sans-serif;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.chain_step:hover {
+    background-color: #1F2937;
+}
+
+.arrow {
+    color: #0059ff;
+    font-size: 40px;
+}
+/*  Methods  */
+
+.method_section {
+    display: grid;
+    gap: 40px;
+}
+
+.method_section h2 {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 35px;
+}
+
+.method_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+}
+
+.method_block {
+    background-color: #1A1F2B;
+    padding: 40px;
+    border-radius: 10px;
+    display: grid;
+    transition: 0.3s ease;
+    align-content: start;
+}
+
+.method_block:hover {
+    background-color: #1F2937;
+}
+
+.method_block h3 {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 22px;
+    color: #0059ff;
+}
+
+.method_block p,
+.method_block li {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 20px;
+    color: #AAB4C3;
+    line-height: 1.7;
+
+}
+
+.method_block ul {
+    display: grid;
+    align-content: start;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+/*  Compliance  */
+
+.compliance_section {
+    display: grid;
+    gap: 60px;
+}
+
+.compliance_section h2 {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 35px;
+}
+
+.compliance_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.compliance_card {
+    background-color: #1A1F2B;
+    padding: 40px;
+    border-radius: 8px;
+    display: grid;
+    gap: 20px;
+    transition: 0.3s ease;
+}
+
+.compliance_card:hover {
+    background-color: #1F2937;
+}
+
+.compliance_card h3 {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 22px;
+    color: #0059ff;
+}
+
+.compliance_card p {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 20px;
+    color: #AAB4C3;
+}

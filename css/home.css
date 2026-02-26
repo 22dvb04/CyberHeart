@@ -1,0 +1,240 @@
+/* Home Page */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.hero,
+.about_short,
+.services_short,
+.process,
+.stats {
+    width: 100%;
+    max-width: 1300px;
+}
+
+.home {
+    display: grid;
+    gap: 120px;
+    padding: 120px 80px;
+    background: linear-gradient(180deg, #0F1115 0%, #111827 100%);
+    color: #E6EDF3;
+
+    justify-items: center;  
+}
+
+/* Hero / Opening block */
+.hero {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
+    gap: 80px;
+}
+
+.hero_text {
+    display: grid;
+    gap: 30px;
+
+}
+
+.hero_text h1 {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.hero_text p {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 25px;
+    color: #AAB4C3;
+    max-width: 550px;
+}
+
+.hero_buttons {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 25px;
+    justify-content: start;
+
+}
+
+.btn_home{
+    padding: 20px 80px;
+    background-color: #223c8c;
+    color: #E6EDF3;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Tomorrow", sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.btn_home:hover {
+    background-color: #0059ff;
+    color: #ffffff;
+}
+
+.hero_logo {
+    display: grid;
+    justify-content: start;
+
+}
+
+.hero_logo img {
+    max-width: 650px;
+    opacity: 0.9;
+    filter: drop-shadow(0 0 30px rgba(0, 89, 255, 0.2));
+}
+
+/* About Us block */
+
+.about_short {
+    display: grid;
+    gap: 35px;
+}
+
+.about_header {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    position: relative;
+}
+
+.about_header::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: #0059ff;
+    display: block;
+    margin-top: 12px;
+}
+
+.about_short p {
+    font-family: "Tomorrow", sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 1.8;
+    color: #AAB4C3;
+}
+
+/* Services block */
+
+.services_short {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10%;
+    width: 100%;
+    max-width: 1300px;
+}
+
+.service_header {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 35px;
+}
+
+.services_short .service_box {
+    background-color: #1A1F2B;
+    padding: 40px 20px;
+    border-radius: 8px;
+    text-align: center;
+    align-self: center;
+    font-family: "Tomorrow", sans-serif;
+    font-size: 25px;
+    transition: 0.3s ease;
+}
+
+.services_short {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.service_header {
+    grid-column: 1 / -1;
+    text-align: left;
+}
+
+.service_box:hover {
+    background-color: #1F2937;
+    transform: translateY(-6px);
+}
+
+/* Process block */
+
+.process {
+    display: grid;
+    gap: 50px;
+    justify-items: start;
+}
+
+.process_header {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.process_image{
+    display: grid;
+    justify-content: center;  
+    place-items: center;
+}
+.process_image img{
+    display: grid;
+    width: 50%;
+}
+
+
+/* Statistics block */
+
+.stats {
+    display: grid;
+    gap: 50px;
+}
+
+.stats_header {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.stats_row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+
+}
+
+.stat_box {
+    background-color: #1A1F2B;
+    padding: 40px;
+    border-radius: 10px;
+    display: grid;
+    gap: 15px;
+
+    aspect-ratio: 1 / 1; 
+
+    transition: 0.3s ease;
+}
+
+.stat_box:hover {
+    background-color: #1F2937;
+    transform: translateY(-6px);
+}
+
+.stat_box h2 {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 38px;
+    color: #0059ff;
+}
+
+.stat_box p {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 18px;
+    color: #AAB4C3;
+}
+
+

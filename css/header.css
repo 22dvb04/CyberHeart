@@ -1,0 +1,73 @@
+
+/* Header */
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 0 20px;
+    height: 80px;
+    background-color: #0F1115;
+    border-bottom: 1px solid #1A1F2B;
+}
+
+.logo {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.logo img:hover {
+    filter: brightness(0) saturate(100%) invert(19%) sepia(98%) saturate(6125%) hue-rotate(224deg) brightness(96%) contrast(101%);
+}
+
+.header_nav {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header_nav a {
+    text-decoration: none;
+    font-family: "Tomorrow", sans-serif;
+    font-size: 20px;
+    color: #E6EDF3;
+    transition: color 0.3s ease;
+}
+
+.header_nav a:hover {
+    color: #0059ff;
+}
+
+.btn_audit {
+    display: grid;
+    justify-content: end;
+}
+
+.btn_primary {
+    padding: 20px 80px;
+    background-color: #223c8c;
+    color: #E6EDF3;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Tomorrow", sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.btn_primary:hover {
+    background-color: #0059ff;
+    color: #ffffff;
+}
+

@@ -1,0 +1,132 @@
+/* Footer */
+
+.footer {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+    grid-template-rows: 1fr auto;
+    align-items: start;
+    padding: 40px;
+    background-color: #0F1115;
+    border-top: 1px solid #1A1F2B;
+    color: #E6EDF3;
+
+
+}
+
+.footer_logo {
+    display: grid;
+    gap: 20px;
+}
+
+.footer_logo img {
+    height: 70px;
+}
+
+.footer_logo p {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 14px;
+    color: #AAB4C3;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.footer_nav {
+    display: grid;
+    gap: 12px;
+    align-content: center;
+    margin-top: 7%;
+}
+
+.footer_nav a {
+    text-decoration: none;
+    color: #AAB4C3;
+    font-family: "Tomorrow", sans-serif;
+    transition: color 0.3s ease;
+}
+
+.footer_nav a:hover {
+    color: #0059ff;
+}
+
+.footer_btn {
+    display: grid;
+    place-self: center;
+    justify-self:left;
+    margin-left: -25%;
+}
+
+.footer_audit {
+    padding: 20px 80px;
+    background-color: #223c8c;
+    color: #E6EDF3;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Tomorrow", sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s ease;
+    
+}
+
+.footer_audit:hover {
+    background-color: #0059ff;
+    color: #ffffff;
+}
+
+
+.footer_contact {
+    display: grid;
+    gap: 8px;
+    align-content: start;
+    margin-top: 1%;
+}
+
+.footer_titles {
+    font-family: "Tomorrow", sans-serif;
+    
+}
+
+.footer_contact p {
+    margin: 0;
+    font-family: "Tomorrow", sans-serif;
+    color: #AAB4C3;
+}
+
+.footer_follow {
+    grid-column: 4 / 5;
+    margin-top: 0;
+    font-family: "Tomorrow", sans-serif;
+}
+
+.social_icons {
+    grid-column: 4 / 5;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    margin-bottom: 0px;
+}
+
+.social_icons img {
+    width: 22px;
+    transition: 0.3s ease;
+}
+
+.social_icons img:hover {
+    filter: brightness(0) saturate(100%) invert(19%) sepia(98%) saturate(6125%) hue-rotate(224deg) brightness(96%) contrast(101%);
+}
+
+.footer_bottom {
+    grid-column: 1 / -1;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #1A1F2B;
+    text-align: center;
+    font-family: "Tomorrow", sans-serif;
+    font-size: 20px;
+    color: #AAB4C3;
+}
+
+.icon_sources {
+    display: none;
+}

@@ -1,0 +1,121 @@
+/* Request Audit Page */
+
+.audit {
+    display: grid;
+    justify-items: center;
+    padding: 120px 80px;
+    background: linear-gradient(180deg, #0F1115 0%, #111827 100%);
+    color: #E6EDF3;
+}
+
+.audit_section {
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    gap: 60px;
+}
+
+.audit_section h1 {
+    text-align: center;
+    font-family: "Tomorrow", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+/* Form block*/
+
+.audit_form {
+    display: grid;
+    gap: 40px;
+    background-color: #1A1F2B;
+    padding: 50px;
+    border-radius: 12px;
+}
+
+/* Full width block*/
+.full_width {
+    grid-column: 1 / -1;
+}
+
+.form_group {
+    display: grid;
+    gap: 12px;
+}
+
+.form_group label {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 25px;
+}
+
+.form_group input,
+.form_group select,
+.form_group textarea {
+    padding: 14px 16px;
+    background-color: #111827;
+    border: 1px solid #2A3245;
+    color: #E6EDF3;
+    font-family: "Tomorrow", sans-serif;
+    font-size: 25px;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+.form_group input:focus,
+.form_group select:focus,
+.form_group textarea:focus {
+    border-color: #0059ff;
+}
+
+/* Phone input */
+.phone_input {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: #111827;
+    border: 1px solid #2A3245;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.phone_input span {
+    padding: 0 12px;
+    color: #AAB4C3;
+    font-family: "Tomorrow", sans-serif;
+}
+
+.phone_input input {
+    border: none;
+    background: transparent;
+    padding: 14px;
+}
+
+/* Submit button */
+.form_submit {
+    display: grid;
+    justify-items: center;
+}
+
+.form_submit button {
+    width: 100%;
+    max-width: 350px;
+}
+ 
+.btn_submit{
+    padding: 20px 80px;
+    background-color: #223c8c;
+    color: #E6EDF3;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Tomorrow", sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.btn_submit:hover {
+    background-color: #0059ff;
+    color: #ffffff;
+}
+
