@@ -54,6 +54,7 @@
     place-items: center;  
     align-items: center;
     gap: 10px;
+    padding: 40px;
 }
 
 .chain_step {

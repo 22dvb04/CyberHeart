@@ -27,6 +27,7 @@
 
 .logo img:hover {
     filter: brightness(0) saturate(100%) invert(19%) sepia(98%) saturate(6125%) hue-rotate(224deg) brightness(96%) contrast(101%);
+    transition: all 250ms ease-in-out;
 }
 
 .header_nav {
@@ -46,6 +47,7 @@
 
 .header_nav a:hover {
     color: #0059ff;
+    transition: all 250ms ease-in-out;
 }
 
 .btn_audit {
